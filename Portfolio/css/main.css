@@ -3,13 +3,14 @@ main {
     
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 /* MAIN CONTENT ============ */
 main .main-content {
     display: flex;
-    flex-direction: column ;
+    flex-direction: column;
+    width: 60%;
 }
 
 main .main-content h2 {
@@ -22,7 +23,7 @@ main .main-content .text {
 }
 
 main .main-content .text p {
-    width: 75%;
+    width: 95%;
     font-size: 1.2em;
     font-weight: 300;
     line-height: 1.6;
@@ -67,11 +68,12 @@ main figure {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    font-size: 28px;
 }
 
 main figure img {
-    width: 400px;
-    height: 400px;
+    width: 350px;
+    height: 350px;
     border-radius: 200px;
 
     margin-bottom: 6%;
@@ -82,4 +84,8 @@ main figure img {
 
 main figure img:hover {
     box-shadow: 0px 0px 8px #00e0ff;
+}
+
+main figcaption {
+    margin-top: 16px;
 }
